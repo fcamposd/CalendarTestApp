@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/zfvmaqub/virtualenv/CalendarTestApp/3.11/bin/set_env_vars.py", line 18, in <module>
+    from clselect.clselectnodejs.apps_manager import ApplicationsManager as NodeJsAppsManager
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/__init__.py", line 4, in <module>
+    from .clselect import ClSelect
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/clselect.py", line 21, in <module>
+    from .clselectexcept import ClSelectExcept, BaseClSelectException
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/clselectexcept.py", line 16, in <module>
+    from clcommon.cpapi import (
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clcommon/cpapi/__init__.py", line 19, in <module>
+    from clcommon.features import (
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clcommon/features.py", line 10, in <module>
+    from clcommon.lib.cledition import (
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clcommon/lib/cledition.py", line 17, in <module>
+    from jwt import exceptions
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/jwt/__init__.py", line 9, in <module>
+    from .api_jwt import PyJWT, decode, encode
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/jwt/api_jwt.py", line 5, in <module>
+    from calendar import timegm
+ImportError: cannot import name 'timegm' from 'calendar' (/home/zfvmaqub/CalendarTestApp/calendar.py)
