@@ -1,8 +1,8 @@
-import os
-import sys
 # [START calendar_quickstart]
 import datetime
+import os
 import os.path
+import sys
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -78,7 +78,8 @@ def main():
       print(start, event["summary"])
 
   except HttpError as error:
-    print(f"An error occurred: {error}")
+    print("An error occurred: {}".format(error))
+    #print(f"An error occurred: {error}")
 
 
 if __name__ == "__main__":
